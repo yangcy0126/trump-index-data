@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-04-17T03:29:44Z",
+  "coverage_start": "2009-05-04",
+  "coverage_end": "2026-04-11",
+  "headline_scoring_coverage": {
+    "authored_text_posts": 74177,
+    "accepted_scored_posts": 74177,
+    "provider_blocked_posts": 0,
+    "accepted_score_rate": 1.0,
+    "unique_texts_scored": 72292
+  },
+  "directed_candidate_coverage": {
+    "candidate_texts_scored": 12549,
+    "accepted_candidate_texts": 12549,
+    "post_country_rows": 4923
+  },
+  "raw_files": [
+    {
+      "path": "data/raw/trump_posts_all_platforms.csv",
+      "size_bytes": 48797006,
+      "sha256": "def28f583ea79bc91ade480e046a3fef879e42f359f1e85d7e8dba92ab0ca576"
+    },
+    {
+      "path": "data/raw/trump_posts_all_platforms_llm.csv",
+      "size_bytes": 62782725,
+      "sha256": "d659fccdc5249679c13b60fb83cfeda5ffbcf2b5295ba9a97d2c398685b10b08"
+    },
+    {
+      "path": "data/raw/twitter_archive.csv",
+      "size_bytes": 30035950,
+      "sha256": "10abad76cb39c1b9cb805d4db141bde60267e08d4e59d79adb057ea97a5e68a3"
+    },
+    {
+      "path": "data/raw/truthsocial_archive.csv",
+      "size_bytes": 18761508,
+      "sha256": "5e923ab19f43b626981da1e13d4e48eacc71d7937065c9c39007e1ead6658a63"
+    },
+    {
+      "path": "data/raw/trump_posts_llm_scores.csv",
+      "size_bytes": 12326795,
+      "sha256": "7dbbf7cd853011275fd518358e7adef250d9955703a3049eab3dbae715dc5e00"
+    },
+    {
+      "path": "data/raw/trump_posts_country_directed.csv",
+      "size_bytes": 6098411,
+      "sha256": "21a6062c6f6cb505a29e75c6d4606b5c8c0ca0e8ec0189248d9886624ae613e1"
+    },
+    {
+      "path": "data/raw/trump_country_directed_text_scores.csv",
+      "size_bytes": 2931345,
+      "sha256": "d1bf2af4b83844428e4c39eac2b4a25a86c7ab685fd70abcbeb1426059d9911a"
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "data/metadata/trump_index_summary_llm.json",
+      "size_bytes": 1569,
+      "sha256": "f9e2e43255ee3560099c17c8d3699a5d79be4e47f6fd69c343bb7b27204a0cb1"
+    },
+    {
+      "path": "data/metadata/trump_country_directed_summary.json",
+      "size_bytes": 4030,
+      "sha256": "432300fb30ef10a30869d0e366146f169b5fe8035aa53fa9440684b2b199d44d"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "built_at_utc": "2026-04-11T09:11:30Z",
+  "pipeline_version": "trump_country_directed_v1",
+  "parent_pipeline_version": "trump_llm_v1",
+  "model": "qwen-plus",
+  "coverage_start": "2009-05-04",
+  "coverage_end": "2026-04-11",
+  "candidate_texts_scored": 12549,
+  "accepted_candidate_texts": 12549,
+  "provider_blocked_candidate_texts": 0,
+  "country_panel_rows": 86618,
+  "post_country_rows": 4923,
+  "countries": {
+    "CN": {
+      "label": "China",
+      "directed_posts": 1509,
+      "directed_days": 983,
+      "start": "2011-01-27 15:13",
+      "end": "2026-04-10 01:15"
+    },
+    "DE": {
+      "label": "Germany",
+      "directed_posts": 131,
+      "directed_days": 116,
+      "start": "2011-10-28 08:47",
+      "end": "2026-03-18 08:43"
+    },
+    "JP": {
+      "label": "Japan",
+      "directed_posts": 183,
+      "directed_days": 126,
+      "start": "2011-10-24 11:39",
+      "end": "2026-03-19 10:05"
+    },
+    "IN": {
+      "label": "India",
+      "directed_posts": 113,
+      "directed_days": 81,
+      "start": "2012-06-27 13:27",
+      "end": "2026-03-10 17:17"
+    },
+    "UK": {
+      "label": "United Kingdom",
+      "directed_posts": 553,
+      "directed_days": 384,
+      "start": "2010-07-01 09:11",
+      "end": "2026-04-08 19:31"
+    },
+    "FR": {
+      "label": "France",
+      "directed_posts": 197,
+      "directed_days": 137,
+      "start": "2012-05-07 13:56",
+      "end": "2026-04-09 16:28"
+    },
+    "IT": {
+      "label": "Italy",
+      "directed_posts": 65,
+      "directed_days": 55,
+      "start": "2011-09-30 11:12",
+      "end": "2026-03-16 23:14"
+    },
+    "CA": {
+      "label": "Canada",
+      "directed_posts": 273,
+      "directed_days": 213,
+      "start": "2011-11-14 15:55",
+      "end": "2026-03-10 14:12"
+    },
+    "BR": {
+      "label": "Brazil",
+      "directed_posts": 41,
+      "directed_days": 39,
+      "start": "2012-12-19 11:09",
+      "end": "2026-01-12 07:55"
+    },
+    "RU": {
+      "label": "Russia",
+      "directed_posts": 1162,
+      "directed_days": 794,
+      "start": "2011-11-23 10:22",
+      "end": "2026-03-22 09:34"
+    },
+    "KR": {
+      "label": "South Korea",
+      "directed_posts": 103,
+      "directed_days": 75,
+      "start": "2012-05-14 14:37",
+      "end": "2026-03-17 11:18"
+    },
+    "MX": {
+      "label": "Mexico",
+      "directed_posts": 499,
+      "directed_days": 348,
+      "start": "2010-08-24 09:07",
+      "end": "2026-02-23 09:08"
+    },
+    "AU": {
+      "label": "Australia",
+      "directed_posts": 66,
+      "directed_days": 53,
+      "start": "2011-09-19 10:15",
+      "end": "2026-03-17 11:18"
+    },
+    "ES": {
+      "label": "Spain",
+      "directed_posts": 28,
+      "directed_days": 26,
+      "start": "2012-04-27 14:28",
+      "end": "2026-01-12 07:55"
+    }
+  },
+  "method": {
+    "candidate_selection": "Union of posts already tagged as geopolitical by the main Trump LLM pipeline and posts caught by a wide country-alias dictionary covering country names, demonyms, capitals, and major leaders.",
+    "country_identification": "LLM validation over candidate texts to determine which of the fixed 14 countries are materially referenced.",
+    "directed_tone_index": "Daily mean Trump attitude toward the listed country on days when that country is materially mentioned. Higher is more positive; lower is more hostile.",
+    "directed_geopolitical_index": "Daily mean geopolitical stance toward the listed country on days when that country is materially mentioned. Higher is more cooperative; lower is more escalatory or threatening.",
+    "directed_attention_index": "Log(1 + directed_posts) for that country-day. This measures mention intensity rather than sentiment direction."
+  },
+  "note": "Unlike the headline Trump-wide indices, country-directed tone and geopolitical indices are left missing on days with no material mention of that country. Attention remains 0 on no-mention days."
+}

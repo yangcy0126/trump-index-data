@@ -1,0 +1,31 @@
+{
+  "built_at_utc": "2026-04-11T09:10:41Z",
+  "pipeline_version": "trump_llm_v1",
+  "model": "qwen-plus",
+  "coverage_start": "2009-05-04",
+  "coverage_end": "2026-04-11",
+  "twitter": {
+    "start": "2009-05-04 13:54",
+    "end": "2021-01-08 23:44"
+  },
+  "truthsocial": {
+    "start": "2022-02-14 10:54",
+    "end": "2026-04-11 00:01"
+  },
+  "scoring_coverage": {
+    "authored_text_posts": 74177,
+    "accepted_scored_posts": 74177,
+    "provider_blocked_posts": 0,
+    "accepted_score_rate": 1.0,
+    "unique_texts_scored": 72292
+  },
+  "method": {
+    "trump_tone_index": "Daily mean LLM tone score on all authored text posts. Higher values are more positive or triumphant; lower values are more hostile or alarmist.",
+    "trump_geopolitical_index": "Daily mean LLM geopolitical score on authored posts that the model classifies as cross-border, trade, war, alliance, migration, or other geopolitical content.",
+    "trump_shock_index": "Daily composite z-score combining posting volume, tone intensity, rhetorical heat, uppercase usage, exclamation intensity, and reblog density.",
+    "tone_index_llm": "Legacy platform-standardized tone series kept for compatibility.",
+    "geopolitical_index_llm": "Legacy platform-standardized geopolitical series kept for compatibility.",
+    "shock_index_llm": "Legacy compatibility alias for trump_shock_index."
+  },
+  "note": "Days with no posts are set to 0. If scoring coverage is partial, daily indices reflect only the posts already labeled by the current model and pipeline version."
+}
