@@ -1,64 +1,64 @@
 {
-  "built_at_utc": "2026-04-11T09:11:30Z",
+  "built_at_utc": "2026-04-21T04:28:32Z",
   "pipeline_version": "trump_country_directed_v1",
   "parent_pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-04-11",
-  "candidate_texts_scored": 12549,
-  "accepted_candidate_texts": 12549,
+  "coverage_end": "2026-04-20",
+  "candidate_texts_scored": 12612,
+  "accepted_candidate_texts": 12612,
   "provider_blocked_candidate_texts": 0,
-  "country_panel_rows": 86618,
-  "post_country_rows": 4923,
+  "country_panel_rows": 86744,
+  "post_country_rows": 4945,
   "countries": {
     "CN": {
       "label": "China",
-      "directed_posts": 1509,
-      "directed_days": 983,
+      "directed_posts": 1512,
+      "directed_days": 986,
       "start": "2011-01-27 15:13",
-      "end": "2026-04-10 01:15"
+      "end": "2026-04-17 22:25"
     },
     "DE": {
       "label": "Germany",
-      "directed_posts": 131,
-      "directed_days": 116,
+      "directed_posts": 132,
+      "directed_days": 117,
       "start": "2011-10-28 08:47",
-      "end": "2026-03-18 08:43"
+      "end": "2026-04-11 08:58"
     },
     "JP": {
       "label": "Japan",
-      "directed_posts": 183,
-      "directed_days": 126,
+      "directed_posts": 184,
+      "directed_days": 127,
       "start": "2011-10-24 11:39",
-      "end": "2026-03-19 10:05"
+      "end": "2026-04-11 08:58"
     },
     "IN": {
       "label": "India",
-      "directed_posts": 113,
-      "directed_days": 81,
+      "directed_posts": 114,
+      "directed_days": 82,
       "start": "2012-06-27 13:27",
-      "end": "2026-03-10 17:17"
+      "end": "2026-04-16 16:19"
     },
     "UK": {
       "label": "United Kingdom",
-      "directed_posts": 553,
-      "directed_days": 384,
+      "directed_posts": 558,
+      "directed_days": 389,
       "start": "2010-07-01 09:11",
-      "end": "2026-04-08 19:31"
+      "end": "2026-04-20 23:04"
     },
     "FR": {
       "label": "France",
-      "directed_posts": 197,
-      "directed_days": 137,
+      "directed_posts": 199,
+      "directed_days": 139,
       "start": "2012-05-07 13:56",
-      "end": "2026-04-09 16:28"
+      "end": "2026-04-19 08:10"
     },
     "IT": {
       "label": "Italy",
-      "directed_posts": 65,
-      "directed_days": 55,
+      "directed_posts": 66,
+      "directed_days": 56,
       "start": "2011-09-30 11:12",
-      "end": "2026-03-16 23:14"
+      "end": "2026-04-16 17:19"
     },
     "CA": {
       "label": "Canada",
@@ -69,31 +69,31 @@
     },
     "BR": {
       "label": "Brazil",
-      "directed_posts": 41,
-      "directed_days": 39,
+      "directed_posts": 43,
+      "directed_days": 40,
       "start": "2012-12-19 11:09",
-      "end": "2026-01-12 07:55"
+      "end": "2026-04-12 21:49"
     },
     "RU": {
       "label": "Russia",
-      "directed_posts": 1162,
-      "directed_days": 794,
+      "directed_posts": 1165,
+      "directed_days": 796,
       "start": "2011-11-23 10:22",
-      "end": "2026-03-22 09:34"
+      "end": "2026-04-15 10:16"
     },
     "KR": {
       "label": "South Korea",
-      "directed_posts": 103,
-      "directed_days": 75,
+      "directed_posts": 104,
+      "directed_days": 76,
       "start": "2012-05-14 14:37",
-      "end": "2026-03-17 11:18"
+      "end": "2026-04-11 08:58"
     },
     "MX": {
       "label": "Mexico",
-      "directed_posts": 499,
-      "directed_days": 348,
+      "directed_posts": 500,
+      "directed_days": 349,
       "start": "2010-08-24 09:07",
-      "end": "2026-02-23 09:08"
+      "end": "2026-04-14 15:01"
     },
     "AU": {
       "label": "Australia",
@@ -104,10 +104,10 @@
     },
     "ES": {
       "label": "Spain",
-      "directed_posts": 28,
-      "directed_days": 26,
+      "directed_posts": 29,
+      "directed_days": 27,
       "start": "2012-04-27 14:28",
-      "end": "2026-01-12 07:55"
+      "end": "2026-04-18 08:14"
     }
   },
   "method": {
