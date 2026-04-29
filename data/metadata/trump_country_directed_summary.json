@@ -1,15 +1,15 @@
 {
-  "built_at_utc": "2026-04-25T10:30:44Z",
+  "built_at_utc": "2026-04-29T13:15:46Z",
   "pipeline_version": "trump_country_directed_v1",
   "parent_pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-04-24",
-  "candidate_texts_scored": 12633,
-  "accepted_candidate_texts": 12633,
+  "coverage_end": "2026-04-29",
+  "candidate_texts_scored": 12639,
+  "accepted_candidate_texts": 12639,
   "provider_blocked_candidate_texts": 0,
-  "country_panel_rows": 86800,
-  "post_country_rows": 4947,
+  "country_panel_rows": 86870,
+  "post_country_rows": 4948,
   "countries": {
     "CN": {
       "label": "China",
@@ -20,10 +20,10 @@
     },
     "DE": {
       "label": "Germany",
-      "directed_posts": 132,
-      "directed_days": 117,
+      "directed_posts": 133,
+      "directed_days": 118,
       "start": "2011-10-28 08:47",
-      "end": "2026-04-11 08:58"
+      "end": "2026-04-28 14:25"
     },
     "JP": {
       "label": "Japan",
