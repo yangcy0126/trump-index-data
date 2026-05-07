@@ -1,15 +1,15 @@
 {
-  "built_at_utc": "2026-05-01T15:13:57Z",
+  "built_at_utc": "2026-05-07T15:31:29Z",
   "pipeline_version": "trump_country_directed_v1",
   "parent_pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-04-30",
-  "candidate_texts_scored": 12644,
-  "accepted_candidate_texts": 12644,
+  "coverage_end": "2026-05-07",
+  "candidate_texts_scored": 12654,
+  "accepted_candidate_texts": 12654,
   "provider_blocked_candidate_texts": 0,
-  "country_panel_rows": 86884,
-  "post_country_rows": 4952,
+  "country_panel_rows": 86982,
+  "post_country_rows": 4959,
   "countries": {
     "CN": {
       "label": "China",
@@ -20,10 +20,10 @@
     },
     "DE": {
       "label": "Germany",
-      "directed_posts": 135,
-      "directed_days": 120,
+      "directed_posts": 137,
+      "directed_days": 121,
       "start": "2011-10-28 08:47",
-      "end": "2026-04-30 09:40"
+      "end": "2026-05-03 11:14"
     },
     "JP": {
       "label": "Japan",
@@ -41,10 +41,10 @@
     },
     "UK": {
       "label": "United Kingdom",
-      "directed_posts": 559,
-      "directed_days": 390,
+      "directed_posts": 560,
+      "directed_days": 391,
       "start": "2010-07-01 09:11",
-      "end": "2026-04-30 14:30"
+      "end": "2026-05-01 11:50"
     },
     "FR": {
       "label": "France",
@@ -55,10 +55,10 @@
     },
     "IT": {
       "label": "Italy",
-      "directed_posts": 66,
-      "directed_days": 56,
+      "directed_posts": 68,
+      "directed_days": 57,
       "start": "2011-09-30 11:12",
-      "end": "2026-04-16 17:19"
+      "end": "2026-05-03 11:14"
     },
     "CA": {
       "label": "Canada",
@@ -83,10 +83,10 @@
     },
     "KR": {
       "label": "South Korea",
-      "directed_posts": 104,
-      "directed_days": 76,
+      "directed_posts": 105,
+      "directed_days": 77,
       "start": "2012-05-14 14:37",
-      "end": "2026-04-11 08:58"
+      "end": "2026-05-04 13:16"
     },
     "MX": {
       "label": "Mexico",
@@ -104,10 +104,10 @@
     },
     "ES": {
       "label": "Spain",
-      "directed_posts": 29,
-      "directed_days": 27,
+      "directed_posts": 30,
+      "directed_days": 28,
       "start": "2012-04-27 14:28",
-      "end": "2026-04-18 08:14"
+      "end": "2026-05-03 11:14"
     }
   },
   "method": {
