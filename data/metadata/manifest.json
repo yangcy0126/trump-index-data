@@ -1,29 +1,29 @@
 {
-  "generated_at_utc": "2026-05-07T15:31:29Z",
+  "generated_at_utc": "2026-05-15T06:17:50Z",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-05-07",
+  "coverage_end": "2026-05-14",
   "headline_scoring_coverage": {
-    "authored_text_posts": 74493,
-    "accepted_scored_posts": 74493,
+    "authored_text_posts": 74565,
+    "accepted_scored_posts": 74565,
     "provider_blocked_posts": 0,
     "accepted_score_rate": 1.0,
-    "unique_texts_scored": 72583
+    "unique_texts_scored": 72654
   },
   "directed_candidate_coverage": {
-    "candidate_texts_scored": 12654,
-    "accepted_candidate_texts": 12654,
-    "post_country_rows": 4959
+    "candidate_texts_scored": 12675,
+    "accepted_candidate_texts": 12675,
+    "post_country_rows": 4970
   },
   "raw_files": [
     {
       "path": "data/raw/trump_posts_all_platforms.csv",
-      "size_bytes": 49129709,
-      "sha256": "b1e0984cf59f52a60e3dfd72711f576273bd2584f1f302df6d597ff65fc18402"
+      "size_bytes": 49226174,
+      "sha256": "7a34cc3a0b92db40c70fecb15f40b049e71088e19d5bcd02053f7797922a9261"
     },
     {
       "path": "data/raw/trump_posts_all_platforms_llm.csv",
-      "size_bytes": 63182927,
-      "sha256": "28cb529334133e1810bf874d521b2d90cc5b6a1c123be8256de59ee67e39a68a"
+      "size_bytes": 63297618,
+      "sha256": "99436e66af414f7f2ef204ce37702ab62d641a051c569ffd59de17f1a0045a88"
     },
     {
       "path": "data/raw/twitter_archive.csv",
@@ -32,35 +32,35 @@
     },
     {
       "path": "data/raw/truthsocial_archive.csv",
-      "size_bytes": 19094211,
-      "sha256": "b5046a79e8f76b55e9c0811ee73579010051c0e33570a02ee6ba0416f4d5940e"
+      "size_bytes": 19190676,
+      "sha256": "ab0dce4e971954bac002a07d70c876dc0cc3e9e8d88efb087084fd1f38c3abf6"
     },
     {
       "path": "data/raw/trump_posts_llm_scores.csv",
-      "size_bytes": 12376238,
-      "sha256": "bfb6abc41caef106d0a4d244b68b8f212980218763a025f7375e26d9dd15e7b1"
+      "size_bytes": 12388099,
+      "sha256": "e9b87ab9f596f57e9df6a90a020670d12504048dea17696ff67367a6c49bca23"
     },
     {
       "path": "data/raw/trump_posts_country_directed.csv",
-      "size_bytes": 6161079,
-      "sha256": "05677c9ce601e81304909b59ddc29f79d6c9e0000b5fee03c6d5bd5ba6b284da"
+      "size_bytes": 6179430,
+      "sha256": "0e93adb198746aabf9a36e8ddf54176edc276db66bdc76f1643aac43e441e531"
     },
     {
       "path": "data/raw/trump_country_directed_text_scores.csv",
-      "size_bytes": 2955031,
-      "sha256": "fff1f919c3dec67cc63a2e623b1856420d2dcd4454cedd00461ceb1055a5c535"
+      "size_bytes": 2960445,
+      "sha256": "20d29c15bfedbc7b2355451d17a85aa53b5a0e40568905bb938e63bcd6f6a614"
     }
   ],
   "metadata_files": [
     {
       "path": "data/metadata/trump_index_summary_llm.json",
       "size_bytes": 1569,
-      "sha256": "7900119caae52bead8d109f347cd0d92ae679a9d90bfad49671bea3e19722f1e"
+      "sha256": "2a28d14a2883f6c5d063e28e62d71a2c5b884be340136cb43b27fd3cd68efcf6"
     },
     {
       "path": "data/metadata/trump_country_directed_summary.json",
       "size_bytes": 4030,
-      "sha256": "2a8d6d4a9781a3d7d32f5dd470b4184030f11ebb70888a66a84e2558dd812426"
+      "sha256": "7af8cf06e4e573084d9b59ca4c7188bd1f319411e4540fbb76da0b4f87dc7303"
     }
   ]
 }
