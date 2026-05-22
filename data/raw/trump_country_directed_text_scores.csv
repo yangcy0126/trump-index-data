@@ -12682,3 +12682,8 @@ c825dd29cc7658ff6a07c55608dac2e98bd1af0d,[],0,,qwen-plus,trump_country_directed_
 4a8b08651be368772d4d7bf3092391c8e0bbb90b,"[{""country_code"": ""CN"", ""country_label"": ""China"", ""directed_tone_score"": -1, ""directed_geopolitical_score"": 0, ""mention_type"": ""other"", ""is_material"": true}]",1,,qwen-plus,trump_country_directed_v1,2026-05-20T07:44:00Z,chatcmpl-c68dab44-9a20-9b70-93c2-86e96e654c75,accepted,,,,
 1955e31503e0b46f3f2050def0e6485fd2dadf6c,[],0,,qwen-plus,trump_country_directed_v1,2026-05-20T07:44:00Z,chatcmpl-c68dab44-9a20-9b70-93c2-86e96e654c75,accepted,,,,
 decab094ac86b958250a28e189882fd8a4833155,[],0,,qwen-plus,trump_country_directed_v1,2026-05-20T07:44:00Z,chatcmpl-c68dab44-9a20-9b70-93c2-86e96e654c75,accepted,,,,
+f96cf7847ef76308a09736e53e3a84ca92fd5e14,[],0,,qwen-plus,trump_country_directed_v1,2026-05-22T07:37:28Z,chatcmpl-834f55dd-07f3-98c1-945a-554d61c9c299,accepted,,,,
+ae9216bfa3c4a74987621a206e64084f24cede2f,"[{""country_code"": ""JP"", ""country_label"": ""Japan"", ""directed_tone_score"": 1, ""directed_geopolitical_score"": 0, ""mention_type"": ""country"", ""is_material"": true}]",1,,qwen-plus,trump_country_directed_v1,2026-05-22T07:37:28Z,chatcmpl-834f55dd-07f3-98c1-945a-554d61c9c299,accepted,,,,
+9b8ab0ae07fa40735db61a4fe2d6be2a1fd8cc07,[],0,,qwen-plus,trump_country_directed_v1,2026-05-22T07:37:28Z,chatcmpl-834f55dd-07f3-98c1-945a-554d61c9c299,accepted,,,,
+ea62ce039064a776a066f0f634611df6b8fee0c6,[],0,,qwen-plus,trump_country_directed_v1,2026-05-22T07:37:28Z,chatcmpl-834f55dd-07f3-98c1-945a-554d61c9c299,accepted,,,,
+b7bbd4938f446c18a673f0d41fcbc35fd5f10679,[],0,,qwen-plus,trump_country_directed_v1,2026-05-22T07:37:28Z,chatcmpl-834f55dd-07f3-98c1-945a-554d61c9c299,accepted,,,,
