@@ -1,22 +1,22 @@
 {
-  "built_at_utc": "2026-07-27T07:52:59Z",
+  "built_at_utc": "2026-08-06T22:47:14Z",
   "pipeline_version": "trump_country_directed_v1",
   "parent_pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-07-27",
-  "candidate_texts_scored": 12906,
-  "accepted_candidate_texts": 12906,
+  "coverage_end": "2026-08-06",
+  "candidate_texts_scored": 12936,
+  "accepted_candidate_texts": 12936,
   "provider_blocked_candidate_texts": 0,
-  "country_panel_rows": 88116,
-  "post_country_rows": 5042,
+  "country_panel_rows": 88256,
+  "post_country_rows": 5050,
   "countries": {
     "CN": {
       "label": "China",
-      "directed_posts": 1533,
-      "directed_days": 1005,
+      "directed_posts": 1535,
+      "directed_days": 1007,
       "start": "2011-01-27 15:13",
-      "end": "2026-07-24 11:15"
+      "end": "2026-08-03 18:14"
     },
     "DE": {
       "label": "Germany",
@@ -27,10 +27,10 @@
     },
     "JP": {
       "label": "Japan",
-      "directed_posts": 185,
-      "directed_days": 128,
+      "directed_posts": 188,
+      "directed_days": 131,
       "start": "2011-10-24 11:39",
-      "end": "2026-05-20 22:21"
+      "end": "2026-08-06 12:17"
     },
     "IN": {
       "label": "India",
@@ -41,10 +41,10 @@
     },
     "UK": {
       "label": "United Kingdom",
-      "directed_posts": 575,
-      "directed_days": 404,
+      "directed_posts": 576,
+      "directed_days": 405,
       "start": "2010-07-01 09:11",
-      "end": "2026-07-24 13:06"
+      "end": "2026-07-28 09:53"
     },
     "FR": {
       "label": "France",
@@ -90,10 +90,10 @@
     },
     "MX": {
       "label": "Mexico",
-      "directed_posts": 504,
-      "directed_days": 353,
+      "directed_posts": 505,
+      "directed_days": 354,
       "start": "2010-08-24 09:07",
-      "end": "2026-07-08 17:24"
+      "end": "2026-08-02 08:57"
     },
     "AU": {
       "label": "Australia",
@@ -104,10 +104,10 @@
     },
     "ES": {
       "label": "Spain",
-      "directed_posts": 33,
-      "directed_days": 31,
+      "directed_posts": 34,
+      "directed_days": 32,
       "start": "2012-04-27 14:28",
-      "end": "2026-07-24 13:06"
+      "end": "2026-07-31 16:10"
     }
   },
   "method": {
