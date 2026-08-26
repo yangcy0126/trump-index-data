@@ -1,23 +1,23 @@
 {
-  "built_at_utc": "2026-08-06T22:45:59Z",
+  "built_at_utc": "2026-08-26T16:48:50Z",
   "pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-08-06",
+  "coverage_end": "2026-08-26",
   "twitter": {
     "start": "2009-05-04 13:54",
     "end": "2021-01-08 23:44"
   },
   "truthsocial": {
     "start": "2022-02-14 10:54",
-    "end": "2026-08-06 16:39"
+    "end": "2026-08-26 12:35"
   },
   "scoring_coverage": {
-    "authored_text_posts": 75652,
-    "accepted_scored_posts": 75652,
+    "authored_text_posts": 76011,
+    "accepted_scored_posts": 76011,
     "provider_blocked_posts": 0,
     "accepted_score_rate": 1.0,
-    "unique_texts_scored": 73697
+    "unique_texts_scored": 74039
   },
   "method": {
     "trump_tone_index": "Daily mean LLM tone score on all authored text posts. Higher values are more positive or triumphant; lower values are more hostile or alarmist.",
