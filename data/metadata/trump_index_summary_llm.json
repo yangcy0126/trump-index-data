@@ -1,27 +1,28 @@
 {
-  "built_at_utc": "2026-08-26T16:48:50Z",
+  "built_at_utc": "2026-11-21T20:18:29Z",
   "pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-08-26",
+  "coverage_end": "2026-11-20",
   "twitter": {
     "start": "2009-05-04 13:54",
     "end": "2021-01-08 23:44"
   },
   "truthsocial": {
     "start": "2022-02-14 10:54",
-    "end": "2026-08-26 12:35"
+    "end": "2026-11-20 08:02"
   },
   "scoring_coverage": {
-    "authored_text_posts": 76011,
-    "accepted_scored_posts": 76011,
+    "authored_text_posts": 77521,
+    "accepted_scored_posts": 77521,
     "provider_blocked_posts": 0,
     "accepted_score_rate": 1.0,
-    "unique_texts_scored": 74039
+    "unique_texts_scored": 75319
   },
   "method": {
+    "quote_posts": "From August 26, 2026, quote posts use the outer post's author and date. Only Trump's own added text is scored; a quote with no added text counts as activity only.",
     "trump_tone_index": "Daily mean LLM tone score on all authored text posts. Higher values are more positive or triumphant; lower values are more hostile or alarmist.",
-    "trump_geopolitical_index": "Daily mean LLM geopolitical score on authored posts that the model classifies as cross-border, trade, war, alliance, migration, or other geopolitical content.",
+    "trump_geopolitical_index": "Daily mean geopolitical score across all scored original text posts; non-geopolitical posts contribute zero.",
     "trump_shock_index": "Daily composite z-score combining posting volume, tone intensity, rhetorical heat, uppercase usage, exclamation intensity, and reblog density.",
     "tone_index_llm": "Legacy platform-standardized tone series kept for compatibility.",
     "geopolitical_index_llm": "Legacy platform-standardized geopolitical series kept for compatibility.",

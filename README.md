@@ -33,3 +33,10 @@ Notes:
 
 - This repository is intended for raw CSV distribution and versioning.
 - The public website repository should continue to keep only processed JSON and workbook assets.
+
+The headline indices end on the last archived post, including reposts. The country-directed
+panel ends on the last original text post. Both cutoff dates are in `data/metadata/latest.json`.
+For Truth Social posts dated August 26, 2026 onward, quoted cards do not supply the outer
+post's author, timestamp or text. Quotes without added text count as activity, not scored
+rhetoric. Earlier published source records and labels are retained. The shock index is
+standardized over all active days, so extending the sample can revise earlier shock readings.

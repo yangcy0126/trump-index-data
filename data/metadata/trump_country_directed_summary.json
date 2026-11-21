@@ -1,71 +1,71 @@
 {
-  "built_at_utc": "2026-08-26T17:12:28Z",
+  "built_at_utc": "2026-11-21T20:21:42Z",
   "pipeline_version": "trump_country_directed_v1",
   "parent_pipeline_version": "trump_llm_v1",
   "model": "qwen-plus",
   "coverage_start": "2009-05-04",
-  "coverage_end": "2026-08-26",
-  "candidate_texts_scored": 13020,
-  "accepted_candidate_texts": 13020,
+  "coverage_end": "2026-11-19",
+  "candidate_texts_scored": 13316,
+  "accepted_candidate_texts": 13316,
   "provider_blocked_candidate_texts": 0,
-  "country_panel_rows": 88536,
-  "post_country_rows": 5071,
+  "country_panel_rows": 89726,
+  "post_country_rows": 5176,
   "countries": {
     "CN": {
       "label": "China",
-      "directed_posts": 1540,
-      "directed_days": 1012,
+      "directed_posts": 1565,
+      "directed_days": 1027,
       "start": "2011-01-27 15:13",
-      "end": "2026-08-24 12:57"
+      "end": "2026-11-19 12:01"
     },
     "DE": {
       "label": "Germany",
-      "directed_posts": 140,
-      "directed_days": 124,
+      "directed_posts": 141,
+      "directed_days": 125,
       "start": "2011-10-28 08:47",
-      "end": "2026-07-24 13:06"
+      "end": "2026-09-08 19:37"
     },
     "JP": {
       "label": "Japan",
-      "directed_posts": 189,
-      "directed_days": 132,
+      "directed_posts": 192,
+      "directed_days": 135,
       "start": "2011-10-24 11:39",
-      "end": "2026-08-10 22:31"
+      "end": "2026-10-14 12:39"
     },
     "IN": {
       "label": "India",
-      "directed_posts": 119,
-      "directed_days": 87,
+      "directed_posts": 120,
+      "directed_days": 88,
       "start": "2012-06-27 13:27",
-      "end": "2026-08-17 19:04"
+      "end": "2026-10-04 23:32"
     },
     "UK": {
       "label": "United Kingdom",
-      "directed_posts": 576,
-      "directed_days": 405,
+      "directed_posts": 579,
+      "directed_days": 408,
       "start": "2010-07-01 09:11",
-      "end": "2026-07-28 09:53"
+      "end": "2026-11-14 12:38"
     },
     "FR": {
       "label": "France",
-      "directed_posts": 209,
-      "directed_days": 148,
+      "directed_posts": 219,
+      "directed_days": 155,
       "start": "2012-05-07 13:56",
-      "end": "2026-07-24 13:06"
+      "end": "2026-10-27 12:52"
     },
     "IT": {
       "label": "Italy",
-      "directed_posts": 76,
-      "directed_days": 64,
+      "directed_posts": 79,
+      "directed_days": 66,
       "start": "2011-09-30 11:12",
-      "end": "2026-07-24 13:06"
+      "end": "2026-10-11 10:34"
     },
     "CA": {
       "label": "Canada",
-      "directed_posts": 285,
-      "directed_days": 222,
+      "directed_posts": 308,
+      "directed_days": 237,
       "start": "2011-11-14 15:55",
-      "end": "2026-08-25 10:00"
+      "end": "2026-11-14 12:38"
     },
     "BR": {
       "label": "Brazil",
@@ -76,38 +76,38 @@
     },
     "RU": {
       "label": "Russia",
-      "directed_posts": 1178,
-      "directed_days": 806,
+      "directed_posts": 1203,
+      "directed_days": 820,
       "start": "2011-11-23 10:22",
-      "end": "2026-08-16 09:26"
+      "end": "2026-10-29 22:12"
     },
     "KR": {
       "label": "South Korea",
-      "directed_posts": 107,
-      "directed_days": 79,
+      "directed_posts": 112,
+      "directed_days": 83,
       "start": "2012-05-14 14:37",
-      "end": "2026-08-25 09:32"
+      "end": "2026-10-14 12:39"
     },
     "MX": {
       "label": "Mexico",
-      "directed_posts": 505,
-      "directed_days": 354,
+      "directed_posts": 506,
+      "directed_days": 355,
       "start": "2010-08-24 09:07",
-      "end": "2026-08-02 08:57"
+      "end": "2026-11-12 07:04"
     },
     "AU": {
       "label": "Australia",
-      "directed_posts": 67,
-      "directed_days": 54,
+      "directed_posts": 69,
+      "directed_days": 56,
       "start": "2011-09-19 10:15",
-      "end": "2026-07-07 22:31"
+      "end": "2026-11-14 12:38"
     },
     "ES": {
       "label": "Spain",
-      "directed_posts": 34,
-      "directed_days": 32,
+      "directed_posts": 37,
+      "directed_days": 35,
       "start": "2012-04-27 14:28",
-      "end": "2026-07-31 16:10"
+      "end": "2026-11-14 12:38"
     }
   },
   "method": {
